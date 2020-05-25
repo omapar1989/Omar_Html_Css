@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #E9E3E3;
+    text-decoration: none;
+}
+
+/*utility*/
+.btn {
+    display: inline-block;
+    font-size:15px;
+    color: #E9E3E3;
+    background: #555;
+    padding: 5px 18px;
+    border: none;    
+    
+}
+
+.btn-light {
+    background: #555e;
+    color: #E9E3E5;
+}
+.btn:hover {
+    background: #83AEED;
+    color: #555;
+}
+
+.text-center {
+    text-align: center;
+}
+/*header*/
+#navbar {
+    background: #333
+    
+}
+
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .container ul {
+    display: flex;
+    padding-right: 1rem;
+}
+
+#navbar .container ul li {
+    list-style: none;
+    
+}
+
+#navbar .container ul li a{
+    padding: 20px;
+    display: block;
+}
+
+#navbar .container h1 {
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+    
+    
+}
+/* effetto tasti */
+#navbar ul li a:hover,
+#navbar ul li.current {
+    background: #555;
+    color: #83AEED;
+}
+
+/*sezione 1*/
+
+#showcase .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url('../img/anthony-delanoix-b5POxb2aL9o-unsplash.jpg') center center/cover;
+    justify-content: center;
+    align-items: center;
+
+}
+#showcase .container h1 {
+    color: #555;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+#showcase .container p {
+    color: #555;
+    font-size: 1rem;
+    padding-bottom: 1.5rem; 
+}
+
+.color-primary {
+    color: #83AEED;
+}
+
+/* sezione 2*/
+
+#showcase-2 .container {
+    display: flex;
+    height: 500px;
+  
+}
+#showcase-2 .container .image {
+    background: url('../img/justin-main-srDN5nHM35g-unsplash.jpg') no-repeat center center/cover;
+    
+    background-color:#333;
+    
+    
+    flex: 1.4; 
+    
+}
+#showcase-2 .container .section-text {
+    display: flex;
+    flex: 0.6; 
+    background: #E9E3E5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    
+
+}
+#showcase-2 .container .section-text h1 {
+    padding-bottom: 30px; 
+}
+
+#showcase-2 .container .section-text p {
+    padding-bottom: 30px; 
+}
+
+/* sezione 3*/
+
+#showcase-3 .container {
+    display: flex;
+    height: 350px;
+  
+}
+#showcase-3 .container .image {
+    background: url('../img/io.png') no-repeat center center/cover;
+    background-size: 13rem; 
+    background-color:#333;
+    
+    
+    
+    flex: 0.6; 
+    
+}
+#showcase-3 .container .section-text {
+    display: flex;
+    flex: 1.4; 
+    background: #E9E3E5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    
+
+}
+#showcase-3 .container .section-text h1 {
+    padding-bottom: 1px; 
+}
+
+#showcase-3 .container .section-text p {
+    padding-bottom: 10px; 
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sezione 4*/
+
+#contact-form {
+    padding: 2rem 20rem;
+    background: #E9E3E5;
+
+}
+
+#contact-form h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+#contact-form p {
+    
+    padding-bottom: 1rem; 
+}
+
+#contact-form button {
+    
+    margin-top: 2rem; 
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(161, 157, 158);
+    background: #E9E3E3;
+}
+
+#contact-form label {
+    margin-bottom:5px;
+    display: block;
+    
+}
+#contact-form textarea {
+    height: 180px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #83AEED;
+}
+
+/* sezione4*/
+
+
+
+/*SOcial info*/
+
+#socialmedia-info .container {
+    display: flex; 
+    justify-content: space-evenly;
+    height: 100px;
+    background: #333;
+    color: #83AEED;
+    align-items: center;
+}
+
+#socialmedia-info .container a{
+    color: #83AEED;
+}
+
+/*footer*/
+
+#footer {
+    background: #333;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
